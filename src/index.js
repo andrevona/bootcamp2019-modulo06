@@ -1,6 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import './config/ReactotronConfig';
+
+// eslint-disable-next-line no-console
+console.tron.log('testando');
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
