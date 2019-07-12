@@ -35,6 +35,11 @@ export const Bio = styled.Text`
   text-align: center;
 `;
 
+export const Loading = styled.ActivityIndicator`
+  margin-top: 20px;
+  color: #999;
+`;
+
 export const Stars = styled.FlatList`
   margin-top: 20px;
 `;
